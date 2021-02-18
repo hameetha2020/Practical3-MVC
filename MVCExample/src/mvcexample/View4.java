@@ -9,7 +9,7 @@ import java.util.*;  // For Observer
 import java.awt.*;
 import javax.swing.*;
 
-public class View4 extends JPanel {
+public class View4 extends JPanel implements Observer {
   
     private Model model;
     private Controller2 contr;   // Parent Frame
@@ -46,5 +46,10 @@ public class View4 extends JPanel {
         display.setText("");
       
     } // clear
+
+    @Override
+    public void update(Observable o, Object arg) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 } // class View4
