@@ -15,7 +15,7 @@ public class Main {
         Controller2 c2 = new Controller2(model); // Create second controller
          Controller2 c3 = new Controller2(model); // Create second controller
           Controller2 c4 = new Controller2(model); // Create second controller
-        
+        Controller2 c5 = new Controller2(model); // Create second controller
     } // main
   
 } // Main
